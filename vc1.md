@@ -2,7 +2,8 @@
 
 1 . BeautifulSoup4, requests 설치
 
-웹 페이지를 가져올 수 있는 requests 모듈과, 가져온 웹 페이지를 분석해서 우리가 원하는 정보를 추출해줄 BeautifulSoup4를 설치합시다.
+requests : 웹 페이지를 가져올 수 있는 requests lib
+BeautifulSoup4 : 가져온 웹 페이지를 분석해서 우리가 원하는 정보를 추출하는 lib
 
 ```
 윈도우에서의 설치 명령어  
