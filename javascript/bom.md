@@ -83,9 +83,11 @@ console.dir(navigator);
 
 ## 창제어
 
-```
+- [창제어](https://github.com/idislbk/bklee1/blob/master/javascript/templates/test/bom_test1.html)
 
-```
+- [새 창에 접근](https://github.com/idislbk/bklee1/blob/master/javascript/templates/test/bom_test2.html)
+
+- [팝업차단](https://github.com/idislbk/bklee1/blob/master/javascript/templates/test/bom_test3.html)
 
 
 
