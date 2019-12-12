@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
+<ol>
+<li>HTML1</li>
+<li class="active">CSS</li>
+<li>JavaScript</li>
+</ol>
+
+<script type="text/javascript">
+var ul= document.querySelectorAll('li');
+
+
+for(var i in Array.from(ul)){
+//for(i=0; i<ul.length ; i++){
+ul[i].style.color= 'red';
+}
+
+var selected= document.querySelector('li.active');
+selected.style.color= 'yellow';
+</script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li id="active">JavaScript</li>
+</ul>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script>
+console.group('before');
+var lis = document.getElementsByTagName('li');
+for(var i = 0; i < lis.length; i++){
+    console.log(lis[i]);
+}
+console.groupEnd();
+/*
+console.group('after');
+lis[2].parentNode.removeChild(lis[1]);
+for(var i = 0; i < lis.length; i++){
+    console.log(lis[i]);
+}
+console.groupEnd();
+*/
+</script>
+</body>
+</html>
