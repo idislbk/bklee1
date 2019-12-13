@@ -22,15 +22,18 @@
     </style>
 </head>
 <body>
-    <div>
+    <div id="target2">
         <div id="target">
             Coding
         </div>
     </div>
     <script>
     var t = document.getElementById('target');
-    console.log(t.getBoundingClientRect());
+    console.log(t+":"+t.getBoundingClientRect());
     console.log(t.offsetParent);
+    console.log('t.clientWidth:', t.clientWidth, 't.clientHeight:', t.clientHeight);
+    var t2 = document.getElementById('target2');
+    console.log('t2.clientWidth:', t2.clientWidth, 't2.clientHeight:', t2.clientHeight);
     </script>
 </body>
 </html>

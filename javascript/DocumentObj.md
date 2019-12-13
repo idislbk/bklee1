@@ -105,9 +105,9 @@ Hello world
 - subStringData() 
 
 > 예제
-    >> [샘플소스](https://github.com/idislbk/bklee1/blob/master/javascript/templates/test/text_test2.html)
+>> [샘플소스](https://github.com/idislbk/bklee1/blob/master/javascript/templates/test/text_test2.html)
     <br />
-    >> [Test Url](http://localhost:5000/test/text_test2.html) : http://localhost:5000/test/text_test2.html 
+>> [Test Url](http://localhost:5000/test/text_test2.html) : http://localhost:5000/test/text_test2.html 
 
 <br />
 
@@ -123,7 +123,7 @@ Hello world
 
 ```html
 <style>
-    body{
+   body{
         padding:0;
         margin:0;
     }
@@ -143,11 +143,24 @@ var t = document.getElementById('target');
 console.log(t.getBoundingClientRect());
 </script>
 ```
-> 예제
->>    [샘플소스](https://github.com/idislbk/bklee1/blob/master/javascript/templates/test/text_test3.html)
-    <br/>
-    [Test Url](http://localhost:5000/test/text_test3.html) : http://localhost:5000/test/text_test3.html 
-    <br/>
->>    [중첩 예제소스](https://github.com/idislbk/bklee1/blob/master/javascript/templates/test/text_test4.html)
-    <br/>
-    [Test Url](http://localhost:5000/test/text_test4.html) : http://localhost:5000/test/text_test4.html 
+> **예제**
+>> [샘플소스](https://github.com/idislbk/bklee1/blob/master/javascript/templates/test/text_test3.html)
+<br/>
+[Test Url](http://localhost:5000/test/text_test3.html) : http://localhost:5000/test/text_test3.html 
+<br/>
+>> [중첩 예제소스](https://github.com/idislbk/bklee1/blob/master/javascript/templates/test/text_test4.html)
+<br/>
+[Test Url](http://localhost:5000/test/text_test4.html) : http://localhost:5000/test/text_test4.html 
+
+- 오래된 브라우저에서는 getBoundingClientRect를 지원하지 않을 수 있기 때문에 
+이런 경우 offsetLeft와 offsetTop 프로퍼티를 사용한다.
+
+- 테두리를 제외한 엘리먼트의 크기를 알고 싶다면  ClientWidth, ClientHeight를 사용
+
+```html
+<script>
+var t = document.getElementById('target');
+console.log('clientWidth:', t.clientWidth, 'clientHeight:', t.clientHeight);
+</script>
+```
+
