@@ -117,7 +117,9 @@ Hello world
 
 요소의 크기와 위치
 
-![css 박스모델](https://github.com/idislbk/bklee1/blob/master/javascript/img/boxModel.PNG)  
+![](https://github.com/idislbk/bklee1/blob/master/javascript/img/boxModel.PNG)  
+[*css 박스모델* ]
+
 
 ```html
 <style>
@@ -141,3 +143,11 @@ var t = document.getElementById('target');
 console.log(t.getBoundingClientRect());
 </script>
 ```
+> 예제
+>>    [샘플소스](https://github.com/idislbk/bklee1/blob/master/javascript/templates/test/text_test3.html)
+    <br/>
+    [Test Url](http://localhost:5000/test/text_test3.html) : http://localhost:5000/test/text_test3.html 
+    <br/>
+>>    [중첩 예제소스](https://github.com/idislbk/bklee1/blob/master/javascript/templates/test/text_test4.html)
+    <br/>
+    [Test Url](http://localhost:5000/test/text_test4.html) : http://localhost:5000/test/text_test4.html 
