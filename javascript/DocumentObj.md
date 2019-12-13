@@ -4,7 +4,7 @@
 
 ![](https://github.com/idislbk/bklee1/blob/master/javascript/img/DocumentObject.PNG)
 
-```
+```html
 <script>
 //document 객체는 window 객체의 소속이다.
 console.log(window.document);
@@ -35,7 +35,7 @@ console.log(window.document.childNodes[1]);
 
 ![](https://github.com/idislbk/bklee1/blob/master/javascript/img/TextObject.PNG)
 
-```
+```html
 <p id="target1"><span>Hello world</span></p>
 <p id="target2">
     <span>Hello world</span>
@@ -82,7 +82,7 @@ Hello world
 - data
 - nodeValue
 
-```
+```html
 <ul>
     <li id="target">html</li> 
     <li>css</li>
@@ -108,4 +108,33 @@ Hello world
     >> [샘플소스](https://github.com/idislbk/bklee1/blob/master/javascript/templates/test/text_test2.html)
     <br />
     >> [Test Url](http://localhost:5000/test/text_test2.html) : http://localhost:5000/test/text_test2.html 
-    
+
+<br />
+
+---
+
+# [문서의 기하학적 특성](https://opentutorials.org/course/1375/7112)
+
+요소의 크기와 위치
+```html
+<style>
+    body{
+        padding:0;
+        margin:0;
+    }
+    #target{
+        width:100px;
+        height:100px;
+        border:50px solid #1065e6;
+        padding:50px;
+        margin:50px;
+    }
+</style>
+<div id="target">
+    Coding
+</div>
+<script>
+var t = document.getElementById('target');
+console.log(t.getBoundingClientRect());
+</script>
+```
