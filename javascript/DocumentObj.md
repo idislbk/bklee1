@@ -116,6 +116,10 @@ Hello world
 # [문서의 기하학적 특성](https://opentutorials.org/course/1375/7112)
 
 요소의 크기와 위치
+
+[css 박스모델]
+![](https://github.com/idislbk/bklee1/blob/master/javascript/img/boxModel.PNG)  
+
 ```html
 <style>
     body{
