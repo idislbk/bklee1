@@ -146,6 +146,7 @@ console.log(t.getBoundingClientRect());
 > **예제**
 >> [샘플소스](https://github.com/idislbk/bklee1/blob/master/javascript/templates/test/text_test3.html)
 <br/>
+
 [Test](https://idislbk.github.io/bklee1/javascript/templates/test/text_test3.html) 
 <br/>
 test url : https://idislbk.github.io/bklee1/javascript/templates/test/text_test3.html
