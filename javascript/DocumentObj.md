@@ -107,7 +107,7 @@ Hello world
 > 예제
 >> [샘플소스](https://github.com/idislbk/bklee1/blob/master/javascript/templates/test/text_test2.html)
     <br />
->> [Test Url](http://localhost:5000/test/text_test2.html) : http://localhost:5000/test/text_test2.html 
+>> [Test Url](https://idislbk.github.io/bklee1/javascript/templates/test/text_test2.html) : https://idislbk.github.io/bklee1/javascript/templates/test/text_test2.html 
 
 <br />
 
@@ -143,29 +143,20 @@ var t = document.getElementById('target');
 console.log(t.getBoundingClientRect());
 </script>
 ```
-> **예제**
->> [샘플소스](https://github.com/idislbk/bklee1/blob/master/javascript/templates/test/text_test3.html)
-<br/>
-
-[Test](https://idislbk.github.io/bklee1/javascript/templates/test/text_test3.html) 
-<br/>
-test url : https://idislbk.github.io/bklee1/javascript/templates/test/text_test3.html
-<br/>
-local url: http://localhost:5000/test/text_test3.html 
-<br/>
->> [중첩 예제소스](https://idislbk.github.io/bklee1/javascript/templates/javascript/templates/test/text_test4.html)
-<br/>
-[Test](https://idislbk.github.io/bklee1/javascript/templates/test/text_test4.html) 
-<br/>
-test url: https://idislbk.github.io/bklee1/javascript/templates/test/text_test4.html 
-<br/>
-local url: http://localhost:5000/test/text_test4.html 
+#### **<예제>**
+- [샘플소스](https://github.com/idislbk/bklee1/blob/master/javascript/templates/test/text_test3.html)
+    - [[실행]](https://idislbk.github.io/bklee1/javascript/templates/test/text_test3.html) 
+    - test url : https://idislbk.github.io/bklee1/javascript/templates/test/text_test3.html
+    - local url: http://localhost:5000/test/text_test3.html 
+- [중첩 예제소스](https://idislbk.github.io/bklee1/javascript/templates/javascript/templates/test/text_test4.html)
+    - [[실행]](https://idislbk.github.io/bklee1/javascript/templates/test/text_test4.html) 
+    - test url: https://idislbk.github.io/bklee1/javascript/templates/test/text_test4.html 
+    - local url: http://localhost:5000/test/text_test4.html 
 
 
-- 오래된 브라우저에서는 getBoundingClientRect를 지원하지 않을 수 있기 때문에 
+>  - 오래된 브라우저에서는 getBoundingClientRect를 지원하지 않을 수 있기 때문에 
 이런 경우 offsetLeft와 offsetTop 프로퍼티를 사용한다.
-
-- 테두리를 제외한 엘리먼트의 크기를 알고 싶다면  ClientWidth, ClientHeight를 사용
+>  - 테두리를 제외한 엘리먼트의 크기를 알고 싶다면  ClientWidth, ClientHeight를 사용
 
 ```html
 <script>
@@ -174,3 +165,4 @@ console.log('clientWidth:', t.clientWidth, 'clientHeight:', t.clientHeight);
 </script>
 ```
 
+###

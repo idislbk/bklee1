@@ -16,7 +16,7 @@
         }
         #target{
             width:100px;
-            height:100px;
+            height:2000px;
         }
     </style>
     <title>Document</title>
@@ -27,10 +27,12 @@
             Coding
         </div>
     </div>
+ 
     <script>
     var t = document.getElementById('target');
-    console.log(t.getBoundingClientRect());
-    console.log(t.offsetParent);
+    setInterval(function(){
+        console.log('getBoundingClientRect : ', t.getBoundingClientRect().top, 'pageYOffset:', window.pageYOffset);
+    }, 1000)
     </script>
 </body>
 </html>
