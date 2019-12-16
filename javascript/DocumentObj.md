@@ -146,11 +146,20 @@ console.log(t.getBoundingClientRect());
 > **예제**
 >> [샘플소스](https://github.com/idislbk/bklee1/blob/master/javascript/templates/test/text_test3.html)
 <br/>
-[Test Url](http://localhost:5000/test/text_test3.html) : http://localhost:5000/test/text_test3.html 
+[Test](https://idislbk.github.io/bklee1/javascript/templates/test/text_test3.html) 
 <br/>
->> [중첩 예제소스](https://github.com/idislbk/bklee1/blob/master/javascript/templates/test/text_test4.html)
+test url : https://idislbk.github.io/bklee1/javascript/templates/test/text_test3.html
 <br/>
-[Test Url](http://localhost:5000/test/text_test4.html) : http://localhost:5000/test/text_test4.html 
+local url: http://localhost:5000/test/text_test3.html 
+<br/>
+>> [중첩 예제소스](https://idislbk.github.io/bklee1/javascript/templates/javascript/templates/test/text_test4.html)
+<br/>
+[Test](https://idislbk.github.io/bklee1/javascript/templates/test/text_test4.html) 
+<br/>
+test url: https://idislbk.github.io/bklee1/javascript/templates/test/text_test4.html 
+<br/>
+local url: http://localhost:5000/test/text_test4.html 
+
 
 - 오래된 브라우저에서는 getBoundingClientRect를 지원하지 않을 수 있기 때문에 
 이런 경우 offsetLeft와 offsetTop 프로퍼티를 사용한다.
