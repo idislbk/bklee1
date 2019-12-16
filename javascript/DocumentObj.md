@@ -165,4 +165,46 @@ console.log('clientWidth:', t.clientWidth, 'clientHeight:', t.clientHeight);
 </script>
 ```
 
-###
+### Viewport
+> 요소의 위치를 생각할 때는 사실 조금 더 복잡해진다. 문서가 브라우저의 크기보다 큰 경우는 스크롤이 만들어지는데 스크롤에 따라서 위치의 값이 달라지기 때문이다. 이를 이해하기 위해서는 우선 viewport에 대한 이해가 선행되어야 한다. 
+- **viewport** : 사용자가 웹페이지에서 볼수있는 가시영역
+
+![](https://github.com/idislbk/bklee1/blob/master/javascript/img/viewport.PNG)  
+
+- viewport의 좌표    
+    - Element.getBoundingClientRect() : 요소의 크기와 요소의 viewport에서의 상대적인 위치를 반환
+    - pageYOffset : 브라우저의 문서 위치 Y값을 반환 (스크롤의 정도 확인)
+```html
+<style>
+    body{
+        padding:0;
+        margin:0;
+    }
+    div{
+        border:50px solid #1065e6;
+        padding:50px;
+        margin:50px;
+    }
+    #target{
+        width:100px;
+        height:2000px;
+    }
+</style>
+    <div>
+        <div id="target">
+            Coding
+        </div>
+    </div>
+ 
+<script>
+var t = document.getElementById('target');
+setInterval(function(){
+    console.log('getBoundingClientRect : ', t.getBoundingClientRect().top, 'pageYOffset:', window.pageYOffset);
+}, 1000)
+</script>
+```
+
+> 오래된 브라우저에서는 pageYOffset 대신 scrollTop 속성을 사용해야 한다.
+
+
+

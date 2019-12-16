@@ -22,6 +22,12 @@
     <title>Document</title>
 </head>
 <body>
+    <input type="button" id="scrollBtn" value="scroll(0, 1000)" />
+    <script>
+        document.getElementById('scrollBtn').addEventListener('click', function(){
+            window.scrollTo(0, 1000);
+        })
+    </script>
     <div>
         <div id="target">
             Coding
@@ -32,6 +38,8 @@
     var t = document.getElementById('target');
     setInterval(function(){
         console.log('getBoundingClientRect : ', t.getBoundingClientRect().top, 'pageYOffset:', window.pageYOffset);
+}, 1000)
+
     }, 1000)
     </script>
 </body>
