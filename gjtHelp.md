@@ -6,13 +6,11 @@
 
 3. git commit -m "first commit"  // 로컬 저장소로 커밋한다.
 
-4. git remote add origin  [깃저장소경로]   //  깃저장소경로를 origin으로 alias 한다 
-ex) git remote add origin https://github.com/~~~.git
+4. git remote add origin  [깃저장소경로]   //  깃저장소경로를 origin으로 alias 한다 <br/>
+    ex) git remote add origin https://github.com/~~~.git
 
-5. (이미 경로에 무언가 있다면 )협업으로 인해 소스 내려받기도 필요하면
-<br/>
-git pull origin master  origin의 내용이 master로 복사됨. 
-
+5. (이미 경로에 무언가 있다면 )협업으로 인해 소스 내려받기도 필요하면 <br/>
+    git pull origin master  origin의 내용이 master로 복사됨. 
 
 6. ** 처음 push 시에만 로그인하라고 뜰 수 있음.  깃허브 계정으로 로그인 하면됨(최초 1회)  <br/>
 git push -u origin master             // 저장소로 밀어넣는다.  master : 현재 브랜치  <br/>
