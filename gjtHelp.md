@@ -9,7 +9,8 @@
 4. git remote add origin  [깃저장소경로]   //  깃저장소경로를 origin으로 alias 한다 
 ex) git remote add origin https://github.com/~~~.git
 
-5. (최조는 필요없음 )협업으로 인해 소스 내려받기도 필요하면
+5. (이미 경로에 무언가 있다면 )협업으로 인해 소스 내려받기도 필요하면
+<br/>
 git pull origin master  origin의 내용이 master로 복사됨. 
 
 
