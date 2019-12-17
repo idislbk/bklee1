@@ -174,6 +174,7 @@ console.log('clientWidth:', t.clientWidth, 'clientHeight:', t.clientHeight);
 - viewport의 좌표    
     - Element.getBoundingClientRect() : 요소의 크기와 요소의 viewport에서의 상대적인 위치를 반환
     - pageYOffset : 브라우저의 문서 위치 Y값을 반환 (스크롤의 정도 확인)
+    - [[실행]](https://idislbk.github.io/bklee1/javascript/templates/test/dom_test1.html) 
 ```html
 <style>
     body{
@@ -206,5 +207,25 @@ setInterval(function(){
 
 > 오래된 브라우저에서는 pageYOffset 대신 scrollTop 속성을 사용해야 한다.
 
+- 스크롤
+    - 스크롤 변경을 위해 scrollLeft와 scrollTop 프로퍼티를 이용
+    - [[실행]](https://idislbk.github.io/bklee1/javascript/templates/test/dom_test2.html) 
+```html
+<input type="button" id="scrollBtn" value="scroll(0, 1000)" />
+<script>
+    document.getElementById('scrollBtn').addEventListener('click', function(){
+        window.scrollTo(0, 1000);
+    })
+</script>
+```
+- 스크린의 크기
+    - 모니터의 크기 : screen.*
+    - 뷰포트의 크기 : window.inner*
+    ![](https://github.com/idislbk/bklee1/blob/master/javascript/img/viewportSize.PNG)
 
-
+```html
+<script>
+console.log('window.innerWidth:', window.innerWidth, 'window.innerHeight:', window.innerHeight);
+console.log('screen.width:', screen.width, 'screen.height:', screen.height);
+</script>
+```    
