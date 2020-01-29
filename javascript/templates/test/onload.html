@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script>
+            window.onload = function(){
+                var hw = document.getElementById('target');
+                console.log("onload:"+hw);
+               /* hw.addEventListener('click', function(){
+                    console.log('Hello world');
+                })*/
+            }
+            window.addEventListener('load', function(){
+                console.log('load');
+            })
+            window.addEventListener('DOMContentLoaded', function(){
+                console.log('DOMContentLoaded');
+                var t = document.getElementById('target');
+                console.log(t);
+            })
+            
+        </script>
+    </head>
+    <body>
+        <p id="target">Hello</p>
+    </body>
+</html>
