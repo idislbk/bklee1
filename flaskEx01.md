@@ -35,7 +35,7 @@ def get_first(username):
 '''
 
 if __name__ == "__main__":# 현재 파일이 모듈이 아닌 실행파일이어야 동작
-    app.run()             # app 객체 실행
+    app.run()             # app 객체 실행     app.run(host="0.0.0.0", port=80, debug=True)  
 ```
 
 - 포트 확인
